@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .outer{
+    width: 100%;
+    background-color: aqua;
+    transform: skewY(-5deg);
+}
+
+.inner{
+    margin-top: -200px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    transform: skewY(5deg);
+}
+
+.second {
+    margin-top: -200px;
+    padding-top: 260px;
+    background-color: blue;
+} */
+
+/* .top{
+    background-color: aqua;
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
+    padding-bottom: 50px;
+}
+
+.bottom{
+    margin-top: -150px;
+    padding-top: 150px;
+    background-color: blue;
+
+} */
+
+/* .myDiv{
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 40px;
+    gap: 20px;
+    align-items: center;
+}
+
+.myDiv > .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* min-width: 400px; */
+    /* aspect-ratio: 1;
+    background-color: red; */
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+#textWrapper{
+    border: 2px solid black;
+    width: 50%;
+    height: 100px;
+}
+
+.hidden{
+    display: none;
+} */
+
+
+.fullwidth{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hidden{
+    display: none !important;
+}
+.modal{
+    background-color: white;
+    border: 2px solid red;
+    width: 60%;
+    height: 300px;
+    position: relative;
+}
+
+.closeBtn{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
